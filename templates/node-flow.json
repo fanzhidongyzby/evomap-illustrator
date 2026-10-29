@@ -1,0 +1,26 @@
+{
+  "width": 1200,
+  "height": 760,
+  "title": "节点、分支与连接",
+  "description": "一个主节点连接两个子节点，再共同产生结果。蓝色是小面积连接强调，信息以文字和箭头表达。",
+  "elements": [
+    {"type": "text", "x": 64, "y": 44, "value": "SYSTEM / NODE FLOW", "font": "latin", "size": 14, "color": "secondary"},
+    {"type": "text", "x": 64, "y": 124, "value": "节点、分支与连接", "size": 44, "weight": 600},
+    {"type": "text", "x": 64, "y": 167, "value": "替换节点名称与关系，复用同一套文档插图语言。", "size": 21, "color": "secondary"},
+    {"type": "line", "x1": 64, "y1": 198, "x2": 1136, "y2": 198},
+    {"type": "arrow", "points": [[600, 310], [600, 370], [350, 370], [350, 423]]},
+    {"type": "arrow", "points": [[600, 310], [600, 370], [850, 370], [850, 423]]},
+    {"type": "arrow", "points": [[350, 503], [350, 560], [600, 560], [600, 613]]},
+    {"type": "arrow", "points": [[850, 503], [850, 560], [600, 560], [600, 613]]},
+    {"type": "rect", "x": 490, "y": 230, "w": 220, "h": 80, "radius": 40},
+    {"type": "circle", "x": 518, "y": 270, "r": 5, "fill": "blue"},
+    {"type": "text", "x": 600, "y": 278, "value": "主节点", "size": 25, "align": "middle", "weight": 500},
+    {"type": "rect", "x": 240, "y": 423, "w": 220, "h": 80},
+    {"type": "text", "x": 350, "y": 471, "value": "子节点 A", "size": 25, "align": "middle"},
+    {"type": "rect", "x": 740, "y": 423, "w": 220, "h": 80},
+    {"type": "text", "x": 850, "y": 471, "value": "子节点 B", "size": 25, "align": "middle"},
+    {"type": "rect", "x": 490, "y": 613, "w": 220, "h": 80, "radius": 40},
+    {"type": "text", "x": 600, "y": 661, "value": "输出结果", "size": 25, "align": "middle", "weight": 500},
+    {"type": "text", "x": 1136, "y": 728, "value": "EVOMAP-INSPIRED / WHITE CANVAS", "font": "latin", "size": 14, "color": "secondary", "align": "end"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "colors": {
+    "paper": "#FFFFFF",
+    "ink": "#000000",
+    "secondary": "#53565A",
+    "muted": "#75787B",
+    "line": "#D9D9D6",
+    "surface": "#F7F7F6",
+    "blue": "#6EC7E4",
+    "blueStrong": "#06CEFC",
+    "blueTint": "#E9F2F4",
+    "green": "#77F2AE",
+    "yellow": "#FFD880"
+  },
+  "fonts": {
+    "body": "HarmonyOS Sans SC, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif",
+    "latin": "Outfit, Arial, sans-serif",
+    "code": "Maple Mono NF CN, SFMono-Regular, Menlo, Consolas, monospace"
+  },
+  "geometry": {
+    "stroke": 1.5,
+    "connector": 2,
+    "corner": 14,
+    "connectorCorner": 12,
+    "cellCorner": 10
+  }
+}

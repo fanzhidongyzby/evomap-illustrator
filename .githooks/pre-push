@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+ROOT=$(git rev-parse --show-toplevel)
+python3 -I "$ROOT/scripts/check_release.py"
+python3 -I "$ROOT/scripts/test_render.py"
